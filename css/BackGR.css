@@ -1,0 +1,9 @@
+.Borderr {
+  
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  width: 500px;
+  height: 500px;
+  
+}
