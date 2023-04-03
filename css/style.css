@@ -35,7 +35,8 @@
 html,
 body {
 	height: 100%;
-	font-family: "Nunito Sans", sans-serif;
+	color: #ffffff;
+	font-family: "Georgia", serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -53,36 +54,34 @@ h6 {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 80px;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 60px;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 50px;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 40px;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 30px;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 p {
-	font-size: 16px;
-	font-family: "Nunito Sans", sans-serif;
-	color: #8f8fa8;
-	font-weight: 400;
-	line-height: 24px;
-	margin: 0 0 15px 0;
+	font-size: 15px;
+	font-family: "Georgia", serif;
+	color: #ffffff;
+	margin: 10px;
 }
 
 img {
