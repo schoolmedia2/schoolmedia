@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -12,6 +13,28 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+	<link rel="apple-touch-icon" href="/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="/favicon-144.png">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+    
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -26,11 +49,6 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="container-fluid">
@@ -43,7 +61,7 @@
     </header>
     <!-- Header End -->
 
-    <!-- Hero Section Begin -->
+    <!-- Hi Begin -->
     <section class="hero-section">
         <div class="hero-items owl-carousel">
             <div class="single-hero-item set-bg" data-setbg="img/icons/abstrakt_2.jpg">
@@ -87,173 +105,39 @@
             </div>
         </div>
     </section>
-    <!-- Hero End -->
+    <!-- Hi End -->
 
-    <!-- Feature Section Begin -->
+    <!-- Проекты начало -->
     <section class="feature-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="feature-item set-bg" data-setbg="img/icons/pastel.jpg">
-                        <h3>Алёна Лобина</h3>
-                        <p>Психология</p>
-                        <a href="block_AL" class="primary-btn f-btn">Читать</a>
-                    </div>
+                    	<div class="feature-item set-bg BaseBlock" data-setbg="img/icons/pastel.jpg" >
+                        	<h3>Алёна Лобина</h3>
+                        	<p>Психология</p>
+                        	<a href="block_AL" class="primary-btn f-btn">Читать</a>
+                    	</div>
                 </div>
+		    
                 <div class="col-md-4">
-                    <div class="feature-item set-bg" data-setbg="img/icons/gradient10.jpg">
+                    <div class="feature-item set-bg BaseBlock" data-setbg="img/icons/abstrakt_6.png">
                         <h3>Андрей Бахметьев</h3>
-                        <p>Обустройство<br /> спорт-площадки</p>
-                        <a href="block_AB" class="primary-btn f-btn">Читать</a>
+                        <p>Размещение спортивного комплекса<br /> на территории школы</p>
+                        <a href="block_AnB" class="primary-btn f-btn">Читать</a>
                     </div>
                 </div>
+		    
                 <div class="col-md-4">
-                    <div class="feature-item set-bg" data-setbg="img/icons/abstrakt_1.jpg">
-                        <h3>Арина Баринова</h3>
+                    <div class="feature-item set-bg BaseBlock" data-setbg="img/icons/abstrakt_1.jpg">
+                        <h3>Дарья Ипполитова</h3>
                         <p>Вред<br /> электронных сигарет</p>
-                        <a href="block_ArB" class="primary-btn f-btn">Читать</a>
+                        <a href="block_DI" class="primary-btn f-btn">Читать</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Feature Section End -->
-
-    <!-- Choseus Section Begin -->
-    <section class="chooseus-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Why People Choose Us</h2>
-                        <p>Our sport experts and latest sports equipment are the winning combination.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="choose-item">
-                        <img src="img/icons/chose-icon-1.png" alt="">
-                        <h5>Support 24/24</h5>
-                        <p>One of the best ways to make a great vacation quickly horrible is to choose the wrong
-                            accommodations for your trip. </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="choose-item">
-                        <img src="img/icons/chose-icon-2.png" alt="">
-                        <h5>Our trainer</h5>
-                        <p>If you are an infrequent traveler you may need some tips to keep the wife happy while you are
-                            jet setting around the globe.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="choose-item">
-                        <img src="img/icons/chose-icon-3.png" alt="">
-                        <h5>Personalized sessions</h5>
-                        <p>To succeed at any endeavor, you must stay the course…no matter what the cost! Here are some
-                            surefire tips to help you on your journey.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="choose-item">
-                        <img src="img/icons/chose-icon-4.png" alt="">
-                        <h5>Our equipment</h5>
-                        <p>Rugby and Stratford-upon-Avon. Additionally, there are many things to see and do in and
-                            around Coventry itself.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="choose-item">
-                        <img src="img/icons/chose-icon-5.png" alt="">
-                        <h5>Classes daily</h5>
-                        <p>We would just not have the will in us to go about our daily lives. Its motivation that helps
-                            us get through the most mundane.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="choose-item">
-                        <img src="img/icons/chose-icon-6.png" alt="">
-                        <h5>Focus on your health</h5>
-                        <p>But there is only so far we can go within the constraints of a family budget in building the
-                            perfect telescopic operation.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Choseus Section End -->
-
-    <!-- Blog Section Begin -->
-    <section class="blog-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-title">
-                        <h2>From Our Blog</h2>
-                        <p>List of all news and events that take place related to us</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row blog-gird">
-                <div class="grid-sizer"></div>
-                <div class="col-lg-4 col-md-6 grid-item">
-                    <div class="blog-item large-item set-bg" data-setbg="img/blog/blog-1.jpg">
-                        <a href="#" class="blog-text">
-                            <div class="categories">Gym & Croosfit</div>
-                            <h5>Many people sign up for affiliate programs</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 grid-item">
-                    <div class="blog-item instagram-item">
-                        <a href="#" class="instagram-text">
-                            <div class="categories">Gym & Croosfit <i class="fa fa-instagram"></i></div>
-                            <h5>Follow Our Classes Gyming on Instagram # BodyBuilding # photo</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 grid-item">
-                    <div class="blog-item small-item set-bg" data-setbg="img/blog/blog-2.jpg">
-                        <a href="#" class="blog-text">
-                            <div class="categories">Gym & Croosfit</div>
-                            <h5>Does Hydroderm Work</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 grid-item">
-                    <div class="blog-item large-item xls-large set-bg" data-setbg="img/blog/blog-3.jpg">
-                        <a href="#" class="blog-text">
-                            <div class="categories">Gym & Croosfit</div>
-                            <h5>Many people sign up for affiliate programs</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 grid-item">
-                    <div class="blog-item large-item set-bg" data-setbg="img/blog/blog-4.jpg">
-                        <a href="#" class="blog-text">
-                            <div class="categories">Gym & Croosfit</div>
-                            <h5>Many people sign up for affiliate programs</h5>
-                        </a>
-                        <div class="play-btn">
-                            <a href="https://www.youtube.com/watch?v=X_9VoqR5ojM" class="play-in-btn video-popup">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 grid-item">
-                    <div class="blog-item small-item set-bg" data-setbg="img/blog/blog-5.jpg">
-                        <a href="#" class="blog-text">
-                            <div class="categories">Gym & Croosfit</div>
-                            <h5>Your Antibiotic One Day To 10 Day Options</h5>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blog Section End -->
+    <!-- Проекты конец -->
 
     <!-- Cta Section Begin -->
     <section class="cta-section">
@@ -261,10 +145,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cta-text">
-                        <h3>GeT Started Today</h3>
-                        <p>New student special! $30 unlimited Gym for the first week anh 50% of our member!</p>
+                        <h3>Зарегистрируйтесь!</h3>
+                        <p>Зарегистрированные пользователи могут комментировать проекты!</p>
                     </div>
-                    <a href="#" class="primary-btn cta-btn">book now</a>
+                    <a href="#" class="primary-btn cta-btn">Войти</a>
                 </div>
             </div>
         </div>
@@ -276,85 +160,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="footer-logo-item">
-                        <div class="f-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <p>Despite growth of the Internet over the past seven years, the use of toll-free phone numbers
-                            in television advertising continues.</p>
-                        <div class="social-links">
-                            <h6>Follow us</h6>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1">
                     <div class="footer-widget">
-                        <h5>Our Blog</h5>
-                        <div class="footer-blog">
-                            <a href="#" class="fb-item">
-                                <h6>Most people who work</h6>
-                                <span class="blog-time"><i class="fa fa-clock-o"></i> Jan 02, 2019</span>
-                            </a>
-                            <a href="#" class="fb-item">
-                                <h6>Freelance Design Tricks How </h6>
-                                <span class="blog-time"><i class="fa fa-clock-o"></i> Jan 02, 2019</span>
-                            </a>
-                            <a href="#" class="fb-item">
-                                <h6>have a computer at home have had </h6>
-                                <span class="blog-time"><i class="fa fa-clock-o"></i> Jan 02, 2019</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="footer-widget">
-                        <h5>Program</h5>
-                        <ul class="workout-program">
-                            <li><a href="#">Bodybuilding</a></li>
-                            <li><a href="#">Running</a></li>
-                            <li><a href="#">Streching</a></li>
-                            <li><a href="#">Weight Loss</a></li>
-                            <li><a href="#">Gym Fitness</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="footer-widget">
-                        <h5>Get Info</h5>
+                        <h5>Информация</h5>
                         <ul class="footer-info">
                             <li>
                                 <i class="fa fa-phone"></i>
-                                <span>Phone:</span>
-                                (12) 345 6789
+                                <span>Телефон (Директор):</span>
+                                8-317-426-88-12
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o"></i>
-                                <span>Email:</span>
-                                Colorlib.info@gmail.com
+                                <span>Электронная почта:</span>
+                                sosnov_school2@mail.ru
+                            </li>
+                            <li>
+                                <i class="fa fa-globe"></i>
+                                <span>Официальный сайт:</span>
+                                <a href="https://sosnsosh2.edusite.ru">https://sosnsosh2.edusite.ru</a>
                             </li>
                             <li>
                                 <i class="fa fa-map-marker"></i>
-                                <span>Address</span>
-                                Iris Watson, Box 283 8562, NY
+                                <span>Адрес:</span>
+				<a href="https://yandex.ru/maps/-/CCU0ELfAoC">606170, Российская Федерация, Нижегородская область, рп Сосновское, ул. Нижегородская, дом 4</a>
+
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="ct-inside"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
-                    </div>
+                </div>  
+                <div id="mymap">
                 </div>
             </div>
         </div>
@@ -371,6 +204,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A60a91e004f694f49da511a7b7db772eb6e9d247cad2b4f15c3d10ea39121d551&amp;width=700&amp;height=400&amp;id=mymap&amp;lang=ru_RU&amp;scroll=true"></script>
 </body>
 
 </html>
