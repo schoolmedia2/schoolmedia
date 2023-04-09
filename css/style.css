@@ -162,6 +162,7 @@ ol {
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-weight: 600;
 	padding: 0 12px;
+	margin: 20px;
 	color: #ffffff;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -646,12 +647,16 @@ ol {
 -----------------------*/
 
 .feature-item {
-	text-align: center;
-	height: 380px;
-	margin-left: -15px;
-	margin-right: -15px;
-	padding: 100px 15px 15px;
-	position: relative;
+    display: flex;
+    text-align: center;
+    height: 380px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
 }
 
 .feature-item:hover:before {
@@ -672,17 +677,6 @@ ol {
 	transition: all 0.3s;
 }
 
-.feature-item h3 {
-	color: #ffffff;
-	font-weight: 500;
-	text-transform: uppercase;
-	margin-bottom: 14px;
-}
-
-.feature-item p {
-	color: #ffffff;
-	margin-bottom: 22px;
-}
 
 .feature-item .primary-btn.f-btn:hover:after {
 	opacity: 1;
