@@ -36,7 +36,7 @@ html,
 body {
 	height: 100%;
 	color: #ffffff;
-	font-family: "Georgia", serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -50,7 +50,7 @@ h6 {
 	margin: 0;
 	color: #ffffff;
 	font-weight: 400;
-	font-family: "Oswald", sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h1 {
@@ -79,7 +79,7 @@ h6 {
 
 p {
 	font-size: 20px;
-	font-family: "Georgia", serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	color: #000000;
 	margin: 10px;
 }
@@ -159,7 +159,7 @@ ol {
 .primary-btn {
 	display: inline-block;
 	font-size: 14px;
-	font-family: "Oswald", sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-weight: 600;
 	padding: 0 12px;
 	color: #ffffff;
@@ -210,7 +210,7 @@ ol {
 .site-btn {
 	display: inline-block;
 	font-size: 12px;
-	font-family: "Oswald", sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-weight: 600;
 	padding: 0 12px;
 	color: #000000;
