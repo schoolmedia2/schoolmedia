@@ -1,7 +1,8 @@
 .BACKbord {
   
   border: 2px solid black;
-  padding: 20px;
+  font-size: 17px;
+  padding: 40px;
   margin: 50px;
   border-radius: 25px;
   color: black;
