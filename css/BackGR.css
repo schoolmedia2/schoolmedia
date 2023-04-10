@@ -5,6 +5,7 @@
   margin: 50px;
   border-radius: 25px;
   color: black;
+  background-color: white;
 }
 
 .BaseBlock {
@@ -15,7 +16,6 @@
 }
 
 .BACKstyle {
-  background-image: url(img/BackGround.jpg);
   background-size: cover;
   background-position: center;
   padding: 1px;
