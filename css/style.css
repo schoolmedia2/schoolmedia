@@ -1,6 +1,5 @@
 /******************************************************************
   Template Name: Activitar
-  Description:  Activitar Fitness HTML Template
   Author: Colorlib
   Author URI: https://colorlib.com
   Version: 1.0
@@ -83,6 +82,38 @@ p {
 	color: #ffffff;
 	margin: 10px;
 }
+
+
+
+colr {
+	color: red;
+}
+
+colo {
+	color: orange;
+}
+
+coly {
+	color: yellow;
+}
+
+colg {
+	color: green;
+}
+
+collb {
+	color: lightblue;
+}
+
+colb {
+	color: blue;
+}
+
+colp {
+	color: purple;
+}
+
+
 
 img {
 	max-width: 100%;
