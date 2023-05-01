@@ -31,3 +31,8 @@ table, th, td {
 em, i {
   font-family: georgia;
 }
+
+
+.primary-btn.f-btn:hover:after {
+	opacity: 1;
+}
