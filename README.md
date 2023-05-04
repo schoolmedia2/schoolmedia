@@ -1,1 +1,1 @@
-# schoolmedia2.github.io
+# schoolmedia2.tk
