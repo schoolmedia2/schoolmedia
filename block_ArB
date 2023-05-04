@@ -66,15 +66,12 @@
 
     <!-- Hi Begin -->
     <section class="hero-section">
-            <div class="single-hero-item set-bg" data-setbg="img/icons/pastel_3.jpg">
+            <div class="single-hero-item set-bg" data-setbg="img/gallery/FON1.png">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
 				<div class="hero-text">
-                                <h6 style="color: #000000"><br>
-				
-				<br></h6>
-                                <h4 style="color: #000000">Блок: </h4>
+                                <h4 style="color: #000000">Ландшафтный дизайн пришкольной территории:</h4>
 				</div>
                         </div>
                     </div>
@@ -85,41 +82,110 @@
 
     <!-- Проекты начало -->
     <section class="feature-section">
-        <div class="container-fluid">
-            <div class="row">
+        <div class="container-fluid BACKstyle" style="background-image: url(img/BackGround.jpg)">
+            <div class="BACKbord">
 		    
-                <div class="col-md-4">
-                    <div class="feature-item set-bg BaseBlock" data-setbg="img/icons/xolst_2.jpeg" >
-                        <h4>О чем может сказать почерк?<br>
-				
-				<br></h4>
-                        <a href="block_AL11" class="primary-btn f-btn">Читать</a>
-                    </div>
-                </div>
+		    <strong>Как оформляют территорию специалисты ландшафтного дизайна.</strong><br><br>
 		    
-                <div class="col-md-4">
-                    <div class="feature-item set-bg BaseBlock" data-setbg="img/icons/xolst_4.jpeg">
-                        <h4>Один из способов избавиться от деструктивных состояний.<br>
-				
-				<br></h4>
-                        <a href="block_AL12" class="primary-btn f-btn">Читать</a>
-                    </div>
-                </div>
+		    Задачей ландшафтного оформления территории является создание комфортной зоны проживания максимально соответствующей вкусам и способу жизни её хозяев. Ландшафтный дизайн помогает рационально преобразовать территорию участка, грамотно распределить зоны построек, отдыха и зеленые зоны. 
+		    При этом необходимо оптимально использовать денежные средства, силы, материалы и время, заложенные в проект.<br><br>
 		    
-                <div class="col-md-4">
-                    <div class="feature-item set-bg BaseBlock" data-setbg="img/icons/xolst_2.jpeg">
-                        <h4>Феномен улыбки.<br>
-				
-				<br></h4>
-                        <a href="block_AL13" class="primary-btn f-btn">Читать</a>
-                    </div>
-                </div> 
-		  
+		    <strong>Этап 1.</strong> <i>Пожелания владельца участка - ученики и сотрудники школы (что они хотят видеть на своей территории).</i><br>
+		    Для этого необходимо провести опрос. Проведя опрос, я выяснила, что учащиеся нашей школы желают видеть на территории красивые декоративные деревья, кустарники и цветы. 
+		    Также ребятам хотелось бы видеть новые асфальтированные дорожки и какие-либо декорации. <br>
+		    <strong>Этап 2.</strong> <i>Изучение территории.</i><br>
+		    На рисунке 1 представлена территория школы для создания моего проекта. 
+		    Можно заметить, что существуют пустые участки, которые бы очень хотелось заполнить растениями или сооружениями.
+		    <figure style="margin: 20px">
+			    <img src="img/personal/TerS.png" alt="Территория школы" width="700" height="700">
+			    <figcaption>Рис.1 - Территория школы.</figcaption>
+		    </figure>
+		    <strong>Этап 3.</strong> <i>Предпроектный анализ.</i><br>
+		    
+		    <table>
+			    <caption>Таблица 1. Анализ пришкольной территории.</caption>
+			    <tr>
+				    <th>№</th>
+				    <th>Наименование объекта</th>
+			    </tr>
+			    <tr>
+				    <td>1</td>
+				    <td>Сирени посажены недавно - уже цветут. Состояние удовлетворительное</td>
+			    </tr>
+			    <tr>
+				    <td>2</td>
+				    <td>По периметру посажены клены и рябины - молодые деревья.</td>
+			    </tr>
+			    <tr>
+				    <td>3</td>
+				    <td>Клумбы с цветами - состояние хорошее.</td>
+			    </tr>
+			    <tr>
+				    <td>4</td>
+				    <td>“Сад памяти” - саженцы, недавно посажены состояние удовлетворительное.
+				    </td>
+			    </tr>
+			    <tr>
+				    <td>5</td>
+				    <td>Выгребные ямы + теплотрасса
+					    ! Нельзя сажать растения многолетники, деревья, кустарники.
+				    </td>
+			    </tr>
+		    </table><br>
+		    
+		    <figure style="margin: 20px">
+			    <img src="img/personal/ChertS.jpeg" alt="Чертёж школы" width="700" height="700">
+			    <figcaption>Рис.2 - Чертёж школы.</figcaption>
+		    </figure>
+		    
+		    <strong>Этап 4.</strong> <i>Эскизный проект.</i><br>
+		    <strong>Дизайн-проект участка включает детали озеленения и благоустройства, которые помогут подчеркнуть красоту и достоинства каждой зоны:</strong>
+		    <ul>
+			    <li>Газоны;
+			    </li>
+			    <li>Декоративные решения из цветов и кустарников;
+			    </li>
+			    <li>Цветники;
+			    </li>
+			    <li>Дорожки;
+			    </li>
+			    <li>Озелененные участки по бокам дорожек.
+			    </li>
+		    </ul>
+		    
+		    <figure style="margin: 20px">
+			    <img src="img/personal/GreenS.png" alt="Схема озеленения" width="1200" height="700">
+			    <figcaption>Рис.3 - Схема озеленения.</figcaption>
+		    </figure>
+		    <strong>Конечный результат нового ландшафтного дизайна территории будет выглядеть так:<strong><br>
+			    
+		    <figure style="margin: 20px">
+			    <img src="img/personal/PictAK01.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK02.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK03.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK04.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK05.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK06.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK07.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK08.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK09.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK10.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK11.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK12.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK13.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK14.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK15.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK16.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK17.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK18.png" alt="Дизайн территории" width="1200" height="700">
+			    <img src="img/personal/PictAK19.png" alt="Дизайн территории" width="1200" height="700">
+			    <figcaption>Дизайн территории.</figcaption>
+		    </figure>
             </div>
         </div>
     </section>
     <!-- Проекты конец -->
-
+		
     <!-- Footer Section Begin -->
     <footer class="footer-section">
         <div class="container">
