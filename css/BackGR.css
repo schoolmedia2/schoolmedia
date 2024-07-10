@@ -76,3 +76,10 @@ em, i {
 .BACKbord .primary-btn.f-btn:hover:after {
 	opacity: 1;
 }
+
+
+@media only screen and (max-width: 1000px) {
+.BACKbord {
+  height: auto;
+  }
+}
