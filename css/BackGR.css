@@ -1,12 +1,11 @@
 .BACKbord {
-  
+  border-radius: 25px;
   border: 2px solid black;
+  color: black;
   font-size: 17px;
+  background-color: white;
   padding: 40px;
   margin: 50px;
-  border-radius: 25px;
-  color: black;
-  background-color: white;
 }
 
 table, th, td {
